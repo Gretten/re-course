@@ -16,6 +16,7 @@ class App extends Component {
           photos={page.photos}
           year={page.year}
           isFetching={page.isFetching}
+          error={page.error}
           getPhotos={getPhotosAction}
         />
         <User
